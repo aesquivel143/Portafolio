@@ -15,7 +15,20 @@ Apasionada por transformar datos complejos en decisiones de negocio claras y acc
 
 ---
 
-### 2. Dashboard Comercial, Ventas y Desempeño de Marketing
+### 2. SGI - Sistema de Gestión de Inventarios Multi-Tenant
+Sistema web desarrollado en **Python** utilizando **Streamlit** y **SQLite**, diseñado para la gestión integral de inventarios multi-empresa con alertas de reorden interactivas por WhatsApp.
+#### Características Principales
+- **Multi-Tenant:** Aislamiento de datos por empresa mediante `empresa_id`.
+- **Alertas de Stock y Reorden:** Cálculo dinámico de puntos de reorden basados en ventas promedio y tiempo de entrega, con botones interactivos de redirección a WhatsApp (`wa.me`).
+- **Trazabilidad por Lotes:** Control de números de lote y fechas de caducidad con alertas de vencimiento a 30 días.
+- **Códigos QR:** Generación automática de etiquetas QR por producto y escaneo mediante cámara web o lectora.
+- **Reportes Profesionales:** Exportación de datos a Excel (`.xlsx`), CSV y generación de reportes formales u Órdenes de Compra (PO) en PDF mediante `ReportLab`.
+- **Seguridad:** Autenticación de usuarios con contraseñas encriptadas usando `bcrypt`.
+
+
+---
+
+### 3. Dashboard Comercial, Ventas y Desempeño de Marketing
 - **Problema:** Fragmentación de datos de ventas, marketing y clientes, lo que dificultaba evaluar el retorno de inversión (ROI) y el seguimiento unificado del pipeline comercial.
 - **Herramientas:** Power BI, Power Query, DAX, Excel avanzado, SQL.
 - **Resultados:** Centralización en tiempo real de MRR, tasa de conversión y efectividad de pipeline, permitiendo la optimización de métricas de adquisición (CAC, CPL, ROI) y el análisis del rendimiento por región.
@@ -23,7 +36,7 @@ Apasionada por transformar datos complejos en decisiones de negocio claras y acc
 
 ---
 
-### 3. Dashboard de Cadena de Suministro y Gestión de Inventarios
+### 4. Dashboard de Cadena de Suministro y Gestión de Inventarios
 - **Problema:** lta variabilidad en los tiempos de entrega, cuellos de botella en el flujo de suministro y acumulación de inventario obsoleto/no rotativo. Se aplicaron conceptos de Yellow Belt para mapear la cadena de valor, identificar desperdicios por esperas/sobrestock y definir métricas clave de desempeño (COF Rate, antigüedad de stock).
 - **Herramientas:** Power BI, Power Query, DAX, Excel Avanzado, Principios Lean Supply Chain & Six Sigma.
 - **Resultados:** Monitoreo unificado y estandarizado de la eficiencia en almacén (86.17%) y tiempo promedio de entrega (3.5 días). Funciona como tablero de fase de Control para detectar desviaciones en el nivel de cumplimiento (COF Rate 94.56%), prevenir la obsolescencia de inventario y acelerar el flujo operativo.
