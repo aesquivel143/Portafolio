@@ -24,7 +24,7 @@ Sistema web desarrollado en **Python** utilizando **Streamlit** y **SQLite**, di
 - **Códigos QR:** Generación automática de etiquetas QR por producto y escaneo mediante cámara web o lectora.
 - **Reportes Profesionales:** Exportación de datos a Excel (`.xlsx`), CSV y generación de reportes formales u Órdenes de Compra (PO) en PDF mediante `ReportLab`.
 - **Seguridad:** Autenticación de usuarios con contraseñas encriptadas usando `bcrypt`.
-<img width="602" height="380" alt="1017_1_" src="https://github.com/user-attachments/assets/ef984bba-581c-4617-957d-ff1403170bed" />
+<img width="602" height="360" alt="1017_1_" src="https://github.com/user-attachments/assets/ef984bba-581c-4617-957d-ff1403170bed" />
 
 ---
 
