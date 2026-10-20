@@ -15,7 +15,7 @@ Apasionada por transformar datos complejos en decisiones de negocio claras y acc
 
 ---
 
-### 2. SGI - Sistema de Gestión de Inventarios Multi-Tenant
+### 2. Software SGI - Sistema de Gestión de Inventarios Multi-Tenant
 Sistema web desarrollado en **Python** utilizando **Streamlit** y **SQLite**, diseñado para la gestión integral de inventarios multi-empresa con alertas de reorden interactivas por WhatsApp.
 #### Características Principales
 - **Multi-Tenant:** Aislamiento de datos por empresa mediante `empresa_id`.
