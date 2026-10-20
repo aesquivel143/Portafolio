@@ -15,7 +15,7 @@ Apasionada por transformar datos complejos en decisiones de negocio claras y acc
 
 ---
 
-### 2. Software SGI - Sistema de Gestión de Inventarios Multi-Tenant
+### 2. Sistema web SGI - Sistema de Gestión de Inventarios Multi-Tenant
 Sistema web desarrollado en **Python** utilizando **Streamlit** y **SQLite**, diseñado para la gestión integral de inventarios multi-empresa con alertas de reorden interactivas por WhatsApp.
 #### Características Principales
 - **Multi-Tenant:** Aislamiento de datos por empresa mediante `empresa_id`.
@@ -35,8 +35,23 @@ Sistema web desarrollado en **Python** utilizando **Streamlit** y **SQLite**, di
 <img width="602" height="380" alt="SalesCustomer" src="https://github.com/user-attachments/assets/72c4e8fe-9237-4fc3-8b9f-3d6fabca9fb9" />
 
 ---
+### 4. Simulador de ROI & Presupuesto de Marketing Digital
+Aplicación web interactiva desarrollada en **Python** y **Streamlit** diseñada para emprendedores, especialistas en marketing y agencias digitales. Permite proyectar el Retorno de Inversión (ROI), analizar el Costo por Adquisición (CPA) y calcular ganancias netas considerando deducciones de pasarelas de pago y soporte multimoneda.
+#### Características Principales
+- **Dashboard de Métricas Clave:** Cálculo automático de Clics, Ventas, CPA, Ingresos Brutos, ROAS y Ganancia Neta Real.
+- **Deducción de Pasarelas de Pago:** Incorpora comisiones porcentuales y fijas de plataformas como Stripe, PayPal y Mercado Pago.
+- **Soporte Multimoneda:** Compatible con **MXN, USD, EUR, COP, CLP y ARS**.
+- **Comparativa A/B de Escenarios:** Permite evaluar dos estrategias de presupuesto lado a lado para determinar la opción más rentable.
+- **Gráficos Interactivos de Punto de Equilibrio:** Visualizaciones dinámicas de *Break-Even* y desglose de costos desarrolladas con **Plotly**.
+- **Diagnóstico Inteligente:** Sistema con lógica condicional que advierte sobre campañas en pérdida o márgenes de CPA muy elevados.
+- **Reporte Ejecutivo en PDF:** Exportación formal de resultados generada con la librería **ReportLab**.
+#### Interfaz y Diseño
+- **Tema:** Paleta personalizada *Verde Menta y Rosa Pastel* adaptada vía CSS inyectado.
+- **UX/UI:** Disposición en columnas paralelas con tarjetas de métricas resaltadas e insumos organizados.
 
-### 4. Dashboard de Cadena de Suministro y Gestión de Inventarios
+---
+
+### 5. Dashboard de Cadena de Suministro y Gestión de Inventarios
 - **Problema:** lta variabilidad en los tiempos de entrega, cuellos de botella en el flujo de suministro y acumulación de inventario obsoleto/no rotativo. Se aplicaron conceptos de Yellow Belt para mapear la cadena de valor, identificar desperdicios por esperas/sobrestock y definir métricas clave de desempeño (COF Rate, antigüedad de stock).
 - **Herramientas:** Power BI, Power Query, DAX, Excel Avanzado, Principios Lean Supply Chain & Six Sigma.
 - **Resultados:** Monitoreo unificado y estandarizado de la eficiencia en almacén (86.17%) y tiempo promedio de entrega (3.5 días). Funciona como tablero de fase de Control para detectar desviaciones en el nivel de cumplimiento (COF Rate 94.56%), prevenir la obsolescencia de inventario y acelerar el flujo operativo.
